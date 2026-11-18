@@ -1,0 +1,26 @@
+{
+  "name": "periskope-multimodal-pipeline-prototype",
+  "version": "1.0.0",
+  "description": "Periskope Multimodal Voice Note & Image OCR Intelligence Pipeline Working Prototype",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/app.ts",
+    "test": "node --experimental-strip-types tests/run-all.ts",
+    "test:phase1": "node --experimental-strip-types tests/phase1-audio.test.ts",
+    "test:phase2": "node --experimental-strip-types tests/phase2-vision.test.ts",
+    "test:phase3": "node --experimental-strip-types tests/phase3-validation.test.ts",
+    "test:phase4": "node --experimental-strip-types tests/phase4-automation-mcp.test.ts",
+    "test:phase5": "node --experimental-strip-types tests/phase5-e2e.test.ts"
+  },
+  "keywords": [
+    "periskope",
+    "whatsapp",
+    "multimodal",
+    "audio-transcoding",
+    "voice-notes",
+    "ocr",
+    "mcp"
+  ],
+  "author": "Product Engineering Candidate",
+  "license": "UNLICENSED"
+}
